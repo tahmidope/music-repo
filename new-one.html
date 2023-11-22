@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Firt Try</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+        .music{
+            box-shadow: 10px 10px 5px lightblue;
+            padding: 18px;
+            
+        }
+        .music img{
+            width: 100%;
+        }
+        @media screen and (max-width:576px) {
+            .container{
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+        @media screen and (min-width:577px) and (max-width:700px) {
+            .container{
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="music">
+            <img src="images/eight.jpeg"></img>
+            <h1>New Album</h1>
+            <h3>Wanna hear?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, commodi!</p>
+        </div>
+        <div class="music">
+            <img src="images/five.jpeg"></img>
+            <h1>New Album</h1>
+            <h3>Wanna hear?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo mollitia alias maxime consectetur quis et nam eligendi soluta sunt architecto, exercitationem saepe quo. Cumque ut placeat aliquam quia ullam atque eos, ducimus fugit quasi recusandae fugiat voluptates esse incidunt corporis? Optio eum quod sint tenetur quam dicta aut quas laboriosam.</p>
+        </div>
+        <div class="music">
+            <img src="images/four.jpeg"></img>
+            <h1>New Album</h1>
+            <h3>Wanna hear?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, optio! Quod quisquam aperiam rem nemo sapiente modi dolore aspernatur soluta, porro distinctio earum laborum tempora vitae accusantium enim facilis ullam itaque inventore, ex tempore in numquam. Culpa pariatur corrupti, tempore sed illo nostrum officia consequuntur! Neque id quaerat dignissimos enim alias quisquam velit, non doloremque vitae aperiam quos temporibus hic dolorum beatae placeat, delectus reprehenderit fuga, voluptates debitis? Qui vero placeat ipsa excepturi libero, earum veritatis quisquam dolore facilis totam est laboriosam ipsam corporis fugiat recusandae atque vel! Mollitia, tenetur? Aliquid praesentium assumenda nihil impedit quia expedita nulla in! Qui!</p>
+        </div>
+        <div class="music">
+            <img src="images/one.jpeg"></img>
+            <h1>New Album</h1>
+            <h3>Wanna hear?</h3>
+            <p>lorem10</p>
+        </div>
+        <div class="music">
+            <img src="images/two.jpeg"></img>
+            <h1>New Album</h1>
+            <h3>Wanna hear?</h3>
+            <p>lorem10</p>
+        </div>
+        <div class="music">
+            <img src="images/three.jpeg"></img>
+            <h1>New Album</h1>
+            <h3>Wanna hear?</h3>
+            <p>lorem10</p>
+        </div>
+    </div>
+</body>
+</html>
